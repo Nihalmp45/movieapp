@@ -43,24 +43,24 @@ const Register=()=> {
           <div className="form">
             <div className="form-body">
                 <div className="username">
-                    <label className="form__label" for="Name">Name </label>
+                    <label className="form__label" for="Name">Name: </label>
                     <input className="form__input" type="text" value={Name} onChange = {(e) => handleInputChange(e)} id="Name" placeholder="Name"/>
                 </div>
                 <div className="email">
-                    <label className="form__label" for="email">Email </label>
+                    <label className="form__label" for="email">Email: </label>
                     <input  type="email" id="email" className="form__input" value={email} onChange = {(e) => handleInputChange(e)} placeholder="Email"/>
                 </div>
                 <div className="password">
-                    <label className="form__label" for="password">Password </label>
+                    <label className="form__label" for="password">Password: </label>
                     <input className="form__input" type="password"  id="password" value={password} onChange = {(e) => handleInputChange(e)} placeholder="Password"/>
                 </div>
                 <div className="confirm-password">
-                    <label className="form__label" for="confirmPassword">Confirm Password </label>
+                    <label className="form__label" for="confirmPassword">Confirm Password: </label>
                     <input className="form__input" type="password" id="confirmPassword" value={confirmPassword} onChange = {(e) => handleInputChange(e)} placeholder="Confirm Password"/>
                 </div>
             </div>
-            <div class="footer">
-                <button onClick={()=>handleSubmit()} type="submit" class="btn">Register</button>
+            <div class="footer-reg">
+                <button onClick={()=>handleSubmit()} type="submit" class="btn-reg">Register</button>
             </div>
          </div>
        

@@ -17,7 +17,7 @@ const Header = () => {
       {
         !user &&(
          <>
-       <div>
+       <div className="already">
        already have an account? <Link to ='/login'>Login</Link>
        </div>
        <Link to="/Register">

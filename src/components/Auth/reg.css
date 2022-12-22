@@ -7,7 +7,7 @@ body{
 .form{
     background-color: white;
     border-radius: 5px;
-    width: 550px;
+    width: 20rem;
     margin: 20px auto;
     padding: 20px;
    
@@ -24,6 +24,7 @@ body{
 
 .form__label{
     width: 40%;
+    border-radius: 3rem;
 }
 
 .form_input{
@@ -42,12 +43,12 @@ body{
     cursor: pointer;
     font-size: 14px;
     line-height: 1;
-    border-radius: 500px;
+    border-radius: 31rem;
     transition-property: background-color,border-color,color,box-shadow,filter;
     transition-duration: .3s;
     border: 1px solid transparent;
     letter-spacing: 2px;
-    min-width: 160px;
+    min-width: 10rem;
     text-transform: uppercase;
     white-space: normal;
     font-weight: 700;
@@ -57,4 +58,15 @@ body{
     background-color: #15883e;
     height: 40px;
 
+  }
+   
+  .btn-reg{
+    border-radius: 0.5rem;
+    margin-left: 90px;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+    border: 1px solid transparent;
+    background-color: #2c3e50;
+    color: white;
   }

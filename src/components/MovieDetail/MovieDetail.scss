@@ -3,7 +3,7 @@
 .movie-section {
   display: flex;
   justify-content: space-evenly;
-  padding: 40px 0px;
+  padding: 2.5rem 0rem;
   color: $font-primary;
   font-weight: 400;
 }
@@ -19,7 +19,7 @@
 }
 
 .movie-title {
-  font-size: 40px;
+  font-size: 2.5rem;
   color: $font-primary;
 }
 .movie-plot {
@@ -28,10 +28,10 @@
 }
 
 .movie-info > div span:first-child {
-  padding: 10px 0px;
+  padding: 0.8rem 0rem;
   color: $font-primary;
   font-weight: 600;
-  width: 100px;
+  width: 6.25rem;
   display: inline-block;
 }
 
@@ -55,5 +55,5 @@
 }
 
 .section-right {
-  margin-left: 30px;
+  margin-left: 2rem;
 }
